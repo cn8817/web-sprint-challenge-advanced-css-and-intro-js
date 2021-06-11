@@ -135,6 +135,8 @@ button:hover{
     width:100%;
 }
 
+/*mobile*/
+
 @media(max-width:500px){
     body{
         font-size:1.2rem;
@@ -160,16 +162,35 @@ button:hover{
     }
 
     .artists-container{
+        border-top: solid 2px grey;
         width:100%;
         display:flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top:3%;
+        margin:3% 0;
+        padding:3% 0;
     }
 
     .artist img{
+        width:50%;
         height:30vh;
+        margin-bottom:5%;
+    }
+
+    .one{
+        width:70%;
+    }
+
+    .two{
+        width:85%;
+    }
+
+
+
+    .artist a{
+        font-size:1.7rem;
+        
     }
  
 }
